@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* style for the button movement */
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .mobile__class {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile__header {
+    padding: 10px;
+  }
+  .mobile__responsive--animation {
+    margin-left: 60px;
+  }
+ 
+
+  .right__carusol--div {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .right__carusol--div button {
+    margin-top: 20px;
+  }
+}
