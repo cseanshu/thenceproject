@@ -35,12 +35,13 @@ Features of this website:---
 Tech Stack
 Our platform leverages the latest technologies to deliver a top-notch user experience:
 
-React.js: A popular JavaScript library for building user interfaces.
-Vite: A fast, modern build tool for web development.
-React Router: Declarative routing for React applications.
-Material UI: A React UI framework for creating stylish and responsive user interfaces.
-Vanilla CSS: Custom styling to enhance the visual appeal and usability of the platform.
-React-router: for perfectly routing and save page reloading
+React.js
+Vite,
+React Router,
+Material UI,
+Vanilla CSS,
+Tailwind CSS,
+Material-Ui  for the icons 
 
 
 Credits:---
