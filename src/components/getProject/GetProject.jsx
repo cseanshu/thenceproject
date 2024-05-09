@@ -44,8 +44,10 @@ function GetProject() {
             {emailtouched && !isValidEmail(email) &&
                 <Alert severity="error"  sx={{ bgcolor: 'transparent',color:'red',fontWeight:'bold' }}>Enter a valid email address</Alert>
                     }
-            <button className='bg-gray-600 px-[150px] text-white py-[16px] rounded-3xl mt-2 font-bold cursor-pointer
-             hover:bg-slate-200 hover:text-black' disabled={validForm}>submit</button>
+                    <button className={`bg-${validForm() ? 'green' : 'gray'}-900 px-[140px] border-[3px] text-gray-400 text-xl py-[14px] rounded-3xl mt-2 font-bold cursor-pointer hover:bg-slate-200 hover:text-black`} disabled={!validForm()} >
+                        submit
+                    </button>
+
             </div>
         </form>
     </div>
